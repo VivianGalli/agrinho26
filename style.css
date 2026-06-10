@@ -1,7 +1,13 @@
-.botao-github {
+body{
+    background-color: #95d488;
+    color:#456e3d
+
+}
+
+botao-github {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #8c2ea4; /* Cor verde estilo GitHub */
+    background-color: #6bec38; /* Cor verde estilo GitHub */
     color: white;
     text-decoration: none; /* Remove o sublinhado do link */
     font-weight: bold;
@@ -13,6 +19,6 @@
 
 /* Efeito ao passar o mouse por cima */
 .botao-github:hover {
-    background-color: #632c97;
+    background-color: #95d488;
     cursor: pointer;
 }
