@@ -2,21 +2,19 @@ body{
     background-color:#c0e4b9;
     color:#2c4e26
 }
-botao-github {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #6bec38; /* Cor verde estilo GitHub */
-    color: white;
-    text-decoration: none; /* Remove o sublinhado do link */
-    font-weight: bold;
-    font-family: sans-serif;
-    border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-    transition: background-color 0.2s ease;
+/* Estilizando o botão */
+#botãorsposta!
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: #green  /* Cor do texto */
+    padding: 15px 32px;         /* Espaçamento interno (tamanho) */
+    font-size: 16px;            /* Tamanho da letra */
+    border: none;               /* Remove a borda padrão */
+    border-radius: 8px;         /* Cantos arredondados */
+    cursor: pointer;            /* Transforma a seta do mouse em mãozinha */
+    transition: background 0.3s ease; /* Transição suave de cor */
 }
 
 /* Efeito ao passar o mouse por cima */
-.botao-github:hover {
-    background-color: #95d488;
-    cursor: pointer;
+#botãoresposta
+    background-color: #45a049; /* Um verde um pouco mais escuro */
 }
