@@ -2,19 +2,3 @@ body{
     background-color:#c0e4b9;
     color:#2c4e26
 }
-/* Estilizando o botão */
-#botãorsposta!
-    background-color: #4CAF50; /* Cor de fundo verde */
-    color: #green  /* Cor do texto */
-    padding: 15px 32px;         /* Espaçamento interno (tamanho) */
-    font-size: 16px;            /* Tamanho da letra */
-    border: none;               /* Remove a borda padrão */
-    border-radius: 8px;         /* Cantos arredondados */
-    cursor: pointer;            /* Transforma a seta do mouse em mãozinha */
-    transition: background 0.3s ease; /* Transição suave de cor */
-}
-
-/* Efeito ao passar o mouse por cima */
-#botãoresposta
-    background-color: #45a049; /* Um verde um pouco mais escuro */
-}
