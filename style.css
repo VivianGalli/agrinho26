@@ -3,6 +3,7 @@ body {
     color: #2c4e26;
     font-family: Arial, sans-serif;
     margin: 20px;
+    transition: 0.3s;
 }
 
 h1 {
@@ -15,6 +16,11 @@ p {
     font-size: 16px;
 }
 
+img {
+    width: 500px;
+    height: auto;
+}
+
 button {
     background-color: #4f8a4c;
     color: white;
@@ -24,13 +30,36 @@ button {
     border-radius: 8px;
     cursor: pointer;
     font-size: 15px;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #3d6f3a;
 }
 
-img {
-    width: 800px;
-    height: auto;
+
+/* =========================
+   MODO ESCURO
+   ========================= */
+
+.dark-mode {
+    background-color: #1e2b1f;
+    color: #d8f3dc;
+}
+
+.dark-mode h1 {
+    color: #a8d5a2;
+}
+
+.dark-mode p {
+    color: #e0f2e1;
+}
+
+.dark-mode button {
+    background-color: #6aa84f;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #558b3f;
 }
