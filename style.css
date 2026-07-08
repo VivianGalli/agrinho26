@@ -42,25 +42,20 @@ button:hover {
 
 
 
-
-.dark-mode {
-    background-color: #1e2b1f;
-    color: #d8f3dc;
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
 }
 
-.dark-mode h1 {
+body.dark-mode h1 {
     color: #a8d5a2;
 }
 
-.dark-mode p {
-    color: #e0f2e1;
+body.dark-mode p {
+    color: #ffffff;
 }
 
-.dark-mode button {
-    background-color: #6aa84f;
+body.dark-mode button {
+    background-color: #4f8a4c;
     color: white;
-}
-
-.dark-mode button:hover {
-    background-color: #558b3f;
 }
