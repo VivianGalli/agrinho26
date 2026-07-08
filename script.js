@@ -11,6 +11,7 @@ botao1.addEventListener("click", function () {
     }
 });
 
+
 const botao2 = document.getElementById("botao2");
 const resposta2 = document.getElementById("resposta2");
 
@@ -23,6 +24,7 @@ botao2.addEventListener("click", function () {
         botao2.textContent = "Mostrar resposta";
     }
 });
+
 
 const botao3 = document.getElementById("botao3");
 const resposta3 = document.getElementById("resposta3");
@@ -37,6 +39,7 @@ botao3.addEventListener("click", function () {
     }
 });
 
+
 const botao4 = document.getElementById("botao4");
 const resposta4 = document.getElementById("resposta4");
 
@@ -47,5 +50,20 @@ botao4.addEventListener("click", function () {
     } else {
         resposta4.style.display = "none";
         botao4.textContent = "Mostrar resposta";
+    }
+});
+
+
+// MODO ESCURO
+
+const modoEscuro = document.getElementById("modoEscuro");
+
+modoEscuro.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        modoEscuro.textContent = "☀️ Modo claro";
+    } else {
+        modoEscuro.textContent = "🌙 Modo escuro";
     }
 });
