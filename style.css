@@ -1,31 +1,38 @@
 body {
-    background-color: #c0e4b9;
+    background-color: #c8e6c9;
     color: #2c4e26;
-}
-
-button {
-    background-color: #2c4e26;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px 0 20px 0;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #3a6633;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
 img {
     max-width: 300px;
     height: auto;
+    display: block;
+    margin-bottom: 20px;
 }
 
 h1 {
-    margin-top: 20px;
+    color: #2c4e26;
+    margin-top: 25px;
 }
 
 p {
     line-height: 1.6;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4f8a4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #3d6f3a;
 }
