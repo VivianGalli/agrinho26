@@ -1,5 +1,8 @@
 # agrinho26
- Obsevações:
+Como funciona: 
+Para saber qual é a resposta clique no botão "Mostrar resposta". Para adicionar o modo escuro clique em "Modo Escuro".
+
+Obsevações:
 Esse site tem como objetivo mostrar mais o que é a BIOENERGIA e assuntos dentro dela.
 
 Justificativa:
