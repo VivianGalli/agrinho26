@@ -1,4 +1,15 @@
-body{
-    background-color:#c0e4b9;
-    color:#2c4e26
+body {
+    background-color: #c0e4b9;
+    color: #2c4e26;
+}
+
+button {
+    background-color: #2c4e26;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a6633;
 }
